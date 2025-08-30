@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  schedule:
+    # “Weekly on Saturday at 00:00 UTC”
+    - cron: "0 0 * * 6"
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+
+jobs:
+
+  unit-tests:
+    name: Unit tests
+    uses: ./.github/workflows/unit-tests.yml
+
+  lint:
+    name: Lint
+    uses: ./.github/workflows/lint.yml
