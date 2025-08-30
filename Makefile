@@ -1,6 +1,6 @@
 UV_RUN := uv run
-FOLDERS= cicd_template
-PROJ= cicd_template
+FOLDERS= simple_rag
+PROJ= simple_rag
 NC=\033[0m # No Color
 
 .PHONY: install autolint lint lint-ruff shell precommit uv-precommit \
