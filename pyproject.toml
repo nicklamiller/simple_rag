@@ -1,7 +1,7 @@
 [project]
-name = "cicd-template"
+name = "simple_rag"
 version = "0.1.0"
-description = "A template for CI/CD development tools."
+description = "A repo for a simple RAG pipeline"
 authors = [{ name = "nicklamiller", email = "nicklamiller@gmail.com" }]
 requires-python = "==3.13.*"
 readme = "README.md"

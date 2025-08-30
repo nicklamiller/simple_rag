@@ -1,5 +1,5 @@
-# CICD_template
+# Simple RAG
 
-[![CI - Lint and Test](https://github.com/nicklamiller/CICD_template/actions/workflows/ci.yml/badge.svg)](https://github.com/nicklamiller/CICD_template/actions/workflows/ci.yml)
+[![CI - Lint and Test](https://github.com/nicklamiller/simple_rag/actions/workflows/ci.yml/badge.svg)](https://github.com/nicklamiller/simple_rag/actions/workflows/ci.yml)
 
-A template for ci/cd development
+A repo for creating a simple RAG system.
